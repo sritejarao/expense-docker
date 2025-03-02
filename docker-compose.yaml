@@ -25,7 +25,7 @@ services:
     networks:
     - expense
     container_name: backend
-    deponds_on:
+    depends_on:
     - mysql
   
  #docker run -d --name fronted --network expense -p 80:80 frontend:1.0.0
