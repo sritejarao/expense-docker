@@ -24,7 +24,7 @@ services:
     image: backend:1.0.0
     networks:
     - expense
-    container: backend
+    container_name: backend
     deponds_on:
     - mysql
   
